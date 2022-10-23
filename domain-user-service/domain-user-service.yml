@@ -1,0 +1,11 @@
+# actuator 端点信息
+management:
+  security:
+    enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
