@@ -1,0 +1,10 @@
+#数据库连接串 & 密码
+mariadb:
+  url: 'jdbc:mysql://127.0.0.1:3307/cloud-mall?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC'
+  password: '{cipher}2337f7b2a8f7e075d7659b8b2c744302493e57744d18d9d9c6f9dd3abac20be1'
+
+
+#功能开关-开启/关闭注册功能
+userservice:
+  registration:
+    disabled: true
